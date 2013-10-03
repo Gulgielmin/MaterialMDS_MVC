@@ -24,9 +24,7 @@ public class TelaInicial extends JFrame {
 	private JButton btnNovoContato;
 	private JButton btnAlterarContato;
 	private JButton btnRemoverContato;
-	private JButton btnEncontrarNome;
-	private JButton btnEncontrarTelefone;
-
+	
 	private ContatoTable tabela;
 	private JScrollPane scrollPane;
 
@@ -77,8 +75,7 @@ public class TelaInicial extends JFrame {
 		panel.add(btnNovoContato);
 		panel.add(btnAlterarContato);
 		panel.add(btnRemoverContato);
-		panel.add(btnEncontrarNome);
-		panel.add(btnEncontrarTelefone);
+	
 
 		add(panel, BorderLayout.SOUTH);
 	}
